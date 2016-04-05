@@ -1,0 +1,239 @@
+/*---------------------------------------
+               RESET
+---------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; font:13px/19px Arial, Helvetica, sans-serif; }
+ol,ul{ list-style:none; }
+blockquote,q{ quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after{ content:''; content:none; }
+:focus{ outline:0; }
+ins{ text-decoration:none; }
+del{ text-decoration:line-through; }
+table{ border-collapse:collapse; border-spacing:0; }
+
+/*---------------------------------------
+               AUTENTIFICACION
+---------------------------------------*/
+#containerI{width:100%; min-height:400px; height:auto; display:block;bborder:1px solid red; padding:5px 0px 3px 6px;}
+#headI{width:99%; height:115px; background:url(../img/head.gif) repeat-x;}
+#headI img{width:250px; height:115px; display:inline;}
+.logoI{width:250px; height:115px; display:inline; float:left; margin-left:30px;}
+#formularioI{width:600px; min-height:100px; margin:50px auto; height:auto;  border:1px solid #000033;padding:3px;}
+#title1A{height:20px; border:1px solid #000033 ; background:#000033; color:#e7f3f9; font-family:Arial, Helvetica, sans-serif; font-size:14px;  text-align:center; }
+#title2A{height:20px; text-align:center; border:1px solid #fbd850; background:#fdf9e1;color: #EB8F00; margin-top: 3px;}
+#bottomA{height:20px; border:1px solid #000033 ; bborder:1px solid red;background:#000033;}
+#contentA{margin:3px 0px 3px 0px; border:1px solid #000033; min-height:100px; height:auto;}
+#informationA{ float:left; width:470px; bborder:1px solid red; float:left;}
+#imagenA{ bborder:1px solid red; float:right; width:120px;}
+#imagenA img{float:right; padding-right:5px;}
+.item_requerid{color:#0D1F29; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:left; padding-left:5px; padding-top:5px; padding-bottom:5px; bborder:1px solid red; width:150px; display:inline; float:left; }
+.form_requerid{color:#0D1F29; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:left; padding-left:5px; padding-top:5px; padding-bottom:5px; bborder:1px solid blue; width:300px; display:inline; float:right; }
+.form_requerid input{border:1.5px solid #617F90; width:250px; border-radius:5px 5px 5px 5px; shadow: 0.1em 0.1em 0.2em #2D4848;}
+input:focus, select:focus, textarea:focus{ border:1px solid #fbd850; }
+#button_requerid{width:300px; padding-top:5px; display:inline; float:right; bborder:1px solid red;}
+#button_requerid input{color:#000033; width:100px;} 
+#button_requerid input:focus{border:1px solid #000033;}
+
+/*---------------------------------------
+               PRINCIPAL
+---------------------------------------*/
+/*html, body, iframe { margin:0; padding:0; height:100%; }
+iframe {display:block; width:100%; border:none; 
+
+#container{width:1000px; min-height: 100%; height:auto; display:block;bborder:1px solid #d5d5d5; margin:auto; }
+#head{height:147px; width:100%; display:block; bborder:1px solid red;}
+#banner{height:115px; display:block; width:100%; bborder:1px solid green;background:url(../img/head.gif) repeat-x;}
+#logo{height:115px;width:250px; display:inline; float:left;}
+#slogan{height:114px;width:380px; display:inline; float:left;}
+#information-user{height:115px;width:270px;display:inline; float:left; margin-top:10px;}
+#logout{height:115px;width:100px;display:inline; float:right;}
+#logout a{border:0px;}
+#logout a link, #logout a hover, #logout a hover visited{text-decoration:none}
+#logout img{margin-left:20px; margin-top:20px;}
+.letter_session{color:#D2F5F5; font-family:Arial, Helvetica, sans-serif;align:center; text-align:center; width:100px; float:right; margin-top:3px;}
+.title_information{width:100px; color:#0D1F29; font-family:Arial, Helvetica, sans-serif; float:left; font-weight:bold;}
+.view_information{width:150px; color:#D2F5F5; font-family:Arial, Helvetica, sans-serif; float:right;}
+#menu{height:30px; display:block; width:100%; bborder:1px solid blue;}
+/*#body{ min-height:100%; height:auto; bborder:1px solid red;display:block;}
+
+ #body{ width: 998px;  border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; min-height: 540px; border-bottom: 1px solid #CCCCCC; display: block; overflow: hidden;}
+#body-iframe{ width: 100%; height: 540px!important; position: relative; z-index: 1;}
+*/
+
+#Pcontainer{margin:0 auto; display: block; overflow: hidden; width: 1000px; min-height: 100%; height:auto; position: relative; z-index: 2; bborder:2px solid red;}
+#Phead{height:147px; width:100%; display:block; bborder:1px solid red;}
+#Pbanner{height:115px; display:block; width:100%; bborder:1px solid green;background:url(../img/head.gif) repeat-x;}
+#Plogo{height:115px;width:300px;; display:inline; float:left;bborder:1px solid red;}
+#Pslogan{height:114px;width:400px; display:inline; float:left;bborder:1px solid red;}
+#Pinformation-user{height:115px;width:200px;display:inline; float:left; bborder:1px solid red;}
+
+#logout a{border:0px;}
+#logout a link, #logout a hover, #logout a hover visited{text-decoration:none}
+#logout img{margin-left:20px; margin-top:20px;bborder:1px solid red;}
+.letter_session{color:#D2F5F5; font-family:Arial, Helvetica, sans-serif;align:center; text-align:center; width:100px; float:right; margin-top:5px;}
+.title_information {
+    color: #0D1F29;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+	font-size:10px;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 50px;
+	padding-top:4px;
+}
+.view_information {
+    color: #D2F5F5;
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+	font-size:10px;
+    width: 120px;
+	padding-top:4px;
+}
+#Pmenu{height: 30px; position: absolute; z-index: 500; width: 100%; margin: 0 auto;}
+
+#Pbody{ width: 998px;  border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; min-height:100%; height:auto; border-bottom: 1px solid #CCCCCC; display: block; overflow: hidden; }
+#body-iframe{ width: 100%; min-height: 1200px!important;  height:auto!important; position: relative; z-index: 1; Bborder:4px solid red;
+border:thicksolid#000;
+overflow:hidden;}
+#logout{height:115px;width:100px;display:inline; float:right;bborder:1px solid blue;}
+#logout a{border:0px;}
+#logout a link, #logout a hover, #logout a hover visited{text-decoration:none}
+#logout img{margin-left:20px; margin-top:20px;}
+
+
+
+/*main.php*/
+/*body*/
+#content2{  bborder: 1px solid red;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 998px;}
+#content3{ width: 950px;min-height: 350px; height:auto; position: absolute; left: 50%; top: 50%; margin-left:-475px; margin-top: -220px; border:1px solid #CED5D7; border-radius: 5px 5px 5px 5px; background:#f9f9f9;}
+#menu_body{width:500px;min-height:200px;height:auto; bborder:1px solid red; float:left; margin-top:50px;}
+#informationP{width:400px;min-height:200px; height:auto; bborder:1px solid blue; float:right; margin-top:50px; margin-right:30px;}
+#top_menu{width:100%; bborder:1px solid blue; min-height:100px; height:auto;}
+#botton_menu{width:100%; bborder:1px solid blue; min-height:100px; height:auto;}
+.iconM{ width: 120px; height:80px; border:1px solid #D5D5D5; display:inline; float:left; margin-left:35px; text-align:center; background:#FFF; border-radius:5px 5px 5px 5px;}
+#top_menu a:hover .iconM,#botton_menu a:hover .iconM{background: none repeat scroll 0 0 #F9F9F9; border-color: #EEEEEE #CCCCCC #CCCCCC #EEEEEE; border-left: 1px solid #EEEEEE; border-style: solid; border-width: 1px; color:#0D1F29;}
+.iconM img{ display:block; border:1px solid #FFF; margin:auto; margin-top:5px;}
+.iconLetter{color:#798EA7; font-size:11px; }
+
+/*usuarios*/
+
+.content_body{border: 1px solid #D5D5D5; display: block; overflow: hidden; width: 95%; margin: 0 auto; margin-top: 7px;}
+.head_admin{display:block; width:98%; margin:auto; min-height:45px; height:auto; border:1px solid #d5d5d5; margin-top:3px; border-radius:5px 5px 5px 5px; padding:3px; background:#E5EDF9;}
+.tittle_admin{display:inline; float:left; width:150px; bborder:1px solid red;}
+.tittle_admin img{display:block; margin:auto;}
+.name_admin{color:#203641; font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:auto;}
+.icon_admin{display:inline; float:right; min-width:500px; width:auto; bborder:1px solid red;}
+.iconA{width:60px; border:1px solid #D1EAF3; float:left; margin-left:5px; padding:1px; border-radius:5px 5px 5px 5px; background:#FFF;}
+.iconA img{margin:auto; background:#EFF2F4; display:block;}
+.letter_icon{ font-family:Arial, Helvetica, sans-serif; font-size:9px; color:#203641; width:auto; margin-left:10px;}
+.icon_admin a:hover .iconA{background: none repeat scroll 0 0 #E5EDF9; border-color: #EEEEEE #CCCCCC #CCCCCC #EEEEEE; border-left: 1px solid #EEEEEE; border-style: solid; border-width: 1px; color:#0D1F29;}
+.body_admin{ background:#F9F9F9; display:block; width:98%; margin:auto; min-height:300px; height:auto; border:1px solid #d5d5d5; margin-top:3px; border-radius:5px 5px 5px 5px; padding:0.5%;}
+.admin_buscar{border:1px solid #f5f5f5; min-height:30px; height:auto; width:99%; margin:auto; background:#FFF; border-radius:5px 5px 5px 5px;}
+.admin_letter{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#203641; min-width:100px; width:auto; bborder:1px solid red; margin:20px;}
+.admin_button input{background:#F7951C; color:#FFF; border-radius:5px 5px 5px 5px; border:1px solid #EA8F14; font-size:11px; font-family: "Lucida Console", Monaco, monospace; height:20px; margin-left:20px; margin-top:5px;}
+.admin_button input:focus{ background:#F9A01A;}
+.admin_input input, .admin_input select{border:1px solid #CED5D7; border-radius:5px 5px 5px 5px; font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#203641; min-width:100px; width:auto;}
+.admin_input input:focus, .admin_input select:focus{border:2px solid #EEF5F7; border-radius:5px 5px 5px 5px;}
+.admin_listar{border:1px solid #f5f5f5; min-height:300px; height:auto; width:99%; margin:auto; background:#FFF;  border-radius:5px 5px 5px 5px;}
+
+/*adiciona formulario U*/
+.container_formulario{ border:1px solid #898E94; background:#EEF5F7; width:90%; margin:auto; height:auto; min-height:950px;}
+.admin_formulario{ background:#FFF; width:98%; margin:10px; min-height:800px; height:auto !important}
+.tittle_form{bborder: 1px solid red;
+    color: #0D1F29;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;}
+.label_form{bborder: 1px solid red; padding-left:10px;
+    color: #203641;
+    display: inline;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 30px;
+    margin-left: 20px;
+	padding-left:250px;
+    margin-top: 0;
+    width: 250px;}
+.input_form{bborder: 1px solid blue;
+    float: right;
+    height: auto;
+    height: 30px;
+    width: 580px;}
+.button_form{ bborder: 1px solid red; margin-top:20px;
+    display: inline;
+    float: left;
+    height: 20px;
+    margin-left: 30px;
+	padding-left:250px;
+    width: 100px;}
+.input_form input, .input_form select{border:1px solid #898E94; border-radius:5px 5px 5px 5px; width:250px;}
+.input_form input:focus, .input_form select:focus{border:2px solid #EEF5F7;}
+.button_form input{background:#F7951C; color:#FFF; border-radius:5px 5px 5px 5px; border:1px solid #EA8F14; font-size:11px; height:20px; margin-top:5px; font-family:"Arial Black", Gadget, sans-serif;}
+.button_form input:focus{ background:#F9A01A;}
+/*
+#fadiciona{border:2px solid red; width:800px; padding:auto; margin:auto}
+#fadif{border:2px solid red; width:750px; padding:auto; margin:auto}
+.label_formg{display: inline; float:left;}
+.input_formg{display: inline; float:left;}
+
+*/
+
+#adiP{  background: none repeat scroll 0 0 #fff;
+    height: auto !important;
+    margin: 10px;
+    min-height: 250px;
+    width: 98%;}
+
+#adiA{ background: none repeat scroll 0 0 #fff;
+    height: auto !important;
+    margin: 10px;
+    min-height: 100px;
+    width: 98%;}
+#adicon{ bborder:1px solid blue; background:#FFF; width:98%; margin:10px; min-height:50px; height:auto !important}
+
+#tblDatosP{bborder:1px solid red; width:98%; padding:5px;}
+
+#tblDatosP td{bborder:1px solid red; width:30%; padding:5px;}
+
+#tblDatosA{bborder:1px solid blue; width:98%; padding:5px;}
+#tblDatosA td{bborder:1px solid blue; width:30%; padding:5px;}
+
+#tblbotones{bborder:1px solid red; width:98%; padding:5px;}
+#tblbotones td{bborder:1px solid red; width:50%; padding-left:20%;}
+.tbllabel{ color: #203641;
+    display: block;
+   
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    width: 105px;}
+.tbltitulabel{color: #f7951c;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;}
+	
+.tblinput_form select, .tblinput_form input{border: 1px solid #898e94;
+    border-radius: 5px;
+    width: 200px;}
+	
+.tblbutton_form{ display: inline;
+    height: 20px;
+    margin-top: 20px;
+    width: 150px;}
+	
+.tblbutton_form input{	background: none repeat scroll 0 0 #f7951c;
+    border: 1px solid #ea8f14;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Arial Black",Gadget,sans-serif;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 5px;
+}

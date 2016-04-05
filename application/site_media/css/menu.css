@@ -1,0 +1,189 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,table,th,td,embed,object{margin:0;padding:0;}
+body a{outline:none}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img,abbr{border:0;}
+address,caption,cite,code,dfn,em,h1,h2,h3,h4,h5,h6,strong,th,var{font-style:normal;font-weight:normal;}
+ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:1.0em;}
+q:before,q:after{content:'';}
+a,ins{text-decoration:none;}
+*			{margin:0;padding:0;outline:none;}
+img			{border: none;}
+a			{color:#006699;text-decoration:none;}
+a:hover			{color:#333;border-bottom: solid 1px #333;text-decoration:none;}
+body			{font:0.8em/145% 'Trebuchet MS',helvetica,arial,verdana;color:#333;background:#fff;line-height:1.5;}
+h2		 	{letter-spacing:-1px;font-family:helvetica,arial,verdana;margin:0 0 .5em;color:#000; border-bottom:1px solid #ccc;font-weight:bold;}
+h2 			{font-size:140%;color:#666;}
+.clear			{clear:both}
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/drop_examples.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* commom style for all browsers */
+.container4 {
+text-align:center; background:#eee url(../img/menu/menu4.gif); height:30px; border:1px solid silver;
+}
+.menu4 {
+text-align:left; font-family: Arial,Helvetica,sans-serif; position:relative; font-size:0.85em; background:transparent;  height:20px; margin:0 auto;
+}
+.menu4 ul {
+padding:0; margin:0; list-style-type: none;
+}
+.menu4 ul li {
+float:left; position:relative; font-weight: bold; font-size: 11px;
+}
+.menu4 ul li.home{background:transparent url(../img/menu/home.gif) 9px 1px no-repeat;}
+.menu4 ul li.usuarios{background:transparent url(../img/menu/usuarios.png) 9px 1px no-repeat;}
+.menu4 ul li.docentes{background:transparent url(../img/menu/docentes.png) 9px 1px no-repeat;}
+.menu4 ul li.carreras{background:transparent url(../img/menu/carreras.png) 9px 1px no-repeat;}
+.menu4 ul li.reservas{background:transparent url(../img/menu/reservas.png) 9px 1px no-repeat;}
+.menu4 ul li.inscripciones{background:transparent url(../img/menu/inscripciones.png) 9px 1px no-repeat;}
+.menu4 ul li.notas{background:transparent url(../img/menu/notas.png) 9px 1px no-repeat;}
+.menu4 ul li.estudiantes{background:transparent url(../img/menu/estudiantes.png) 9px 1px no-repeat;}
+.menu4 ul li.pagos{background:transparent url(../img/menu/pagos.png) 9px 1px no-repeat;}
+
+.menu4 ul li.admin_usuarios{background:transparent url(../img/menu/admin_usuarios.bmp) 9px 1px no-repeat;}
+.menu4 ul li.admin_cuenta{background:transparent url(../img/menu/admin_cuenta.png) 9px 1px no-repeat;}
+.menu4 ul li.usuario_add{background:transparent url(../img/menu/usuario_add.png) 9px 1px no-repeat;}
+.menu4 ul li.usuario_delete{background:transparent url(../img/menu/usuario_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.usuario_edit{background:transparent url(../img/menu/usuario_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.usuario_search{background:transparent url(../img/menu/usuario_search.png) 9px 1px no-repeat;}
+.menu4 ul li.modifica_password{background:transparent url(../img/menu/modifica_password.png) 9px 1px no-repeat;}
+
+.menu4 ul li.admin_datos{background:transparent url(../img/menu/admin_datos.png) 9px 1px no-repeat;}
+.menu4 ul li.asigna_cursos{background:transparent url(../img/menu/asigna_cursos.png) 9px 1px no-repeat;}
+.menu4 ul li.docente_add{background:transparent url(../img/menu/docente_add.png) 9px 1px no-repeat;}
+.menu4 ul li.docente_delete{background:transparent url(../img/menu/docente_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.docente_edit{background:transparent url(../img/menu/docente_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.docente_search{background:transparent url(../img/menu/docente_search.png) 9px 1px no-repeat;}
+.menu4 ul li.asigna_add{background:transparent url(../img/menu/asigna_add.png) 9px 1px no-repeat;}
+.menu4 ul li.asigna_delete{background:transparent url(../img/menu/asigna_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.asigna_edit{background:transparent url(../img/menu/asigna_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.asigna_search{background:transparent url(../img/menu/asigna_search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.admin_carreras{background:transparent url(../img/menu/admin_carreras.png) 9px 1px no-repeat;}
+.menu4 ul li.admin_cursos{background:transparent url(../img/menu/admin_cursos.png) 9px 1px no-repeat;}
+.menu4 ul li.cursos_programados{background:transparent url(../img/menu/cursos_programados.png) 9px 1px no-repeat;}
+.menu4 ul li.seminarios_programados{background:transparent url(../img/menu/seminarios_programados.png) 9px 1px no-repeat;}
+
+.menu4 ul li.add{background:transparent url(../img/menu/add.png) 9px 1px no-repeat;}
+.menu4 ul li.elimina{background:transparent url(../img/menu/elimina.png) 9px 1px no-repeat;}
+.menu4 ul li.edit{background:transparent url(../img/menu/edit.png) 9px 1px no-repeat;}
+.menu4 ul li.search{background:transparent url(../img/menu/search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.reserva_add{background:transparent url(../img/menu/reserva_add.png) 9px 1px no-repeat;}
+.menu4 ul li.reserva_delete{background:transparent url(../img/menu/reserva_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.reserva_edit{background:transparent url(../img/menu/reserva_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.reserva_search{background:transparent url(../img/menu/reserva_search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.inscripcionC{background:transparent url(../img/menu/inscripcionC.png) 9px 1px no-repeat;}
+.menu4 ul li.inscripcionS{background:transparent url(../img/menu/inscripcionS.png) 9px 1px no-repeat;}
+.menu4 ul li.i_add{background:transparent url(../img/menu/i_add.png) 9px 1px no-repeat;}
+.menu4 ul li.i_delete{background:transparent url(../img/menu/i_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.i_edit{background:transparent url(../img/menu/i_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.i_search{background:transparent url(../img/menu/i_search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.notasA{background:transparent url(../img/menu/notasA.png) 9px 1px no-repeat;}
+.menu4 ul li.notasD{background:transparent url(../img/menu/notasD.png) 9px 1px no-repeat;}
+.menu4 ul li.nota_add{background:transparent url(../img/menu/nota_add.png) 9px 1px no-repeat;}
+.menu4 ul li.nota_delete{background:transparent url(../img/menu/nota_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.nota_edit{background:transparent url(../img/menu/nota_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.nota_search{background:transparent url(../img/menu/nota_search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.cuenta_estudiante{background:transparent url(../img/menu/cuenta_estudiante.png) 9px 1px no-repeat;}
+.menu4 ul li.admin_estudiantes{background:transparent url(../img/menu/admin_estudiantes.bmp) 9px 1px no-repeat;}
+.menu4 ul li.e_add{background:transparent url(../img/menu/e_add.png) 9px 1px no-repeat;}
+.menu4 ul li.e_delete{background:transparent url(../img/menu/e_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.e_edit{background:transparent url(../img/menu/e_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.e_search{background:transparent url(../img/menu/e_search.png) 9px 1px no-repeat;}
+
+.menu4 ul li.actualizar_datos{background:transparent url(../img/menu/actualizar_datos.png) 9px 1px no-repeat;}
+.menu4 ul li.mi_cursoA{background:transparent url(../img/menu/mi_cursoA.png) 9px 1px no-repeat;}
+.menu4 ul li.ver_pagos{background:transparent url(../img/menu/ver_pagos.png) 9px 1px no-repeat;}
+.menu4 ul li.fichaA{background:transparent url(../img/menu/fichaA.png) 9px 1px no-repeat;}
+
+.menu4 ul li.pago_certificado{background:transparent url(../img/menu/pago_certificado.png) 9px 1px no-repeat;}
+.menu4 ul li.pago_curso{background:transparent url(../img/menu/pago_curso.png) 9px 1px no-repeat;}
+.menu4 ul li.pago_add{background:transparent url(../img/menu/pago_add.png) 9px 1px no-repeat;}
+.menu4 ul li.pago_delete{background:transparent url(../img/menu/pago_delete.png) 9px 1px no-repeat;}
+.menu4 ul li.pago_edit{background:transparent url(../img/menu/pago_edit.png) 9px 1px no-repeat;}
+.menu4 ul li.pago_search{background:transparent url(../img/menu/pago_search.png) 9px 1px no-repeat;}
+/*para paciente*/
+.menu4 ul li.citas-patient{background:transparent url(../img/menu/citas.png) 9px 1px no-repeat;}
+.menu4 ul li.tratamientos-patient{background:transparent url(../img/menu/tratamientos.png) 9px 1px no-repeat;}
+
+.menu4 ul li.articles {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.users {background:transparent url(../img/menu/user.gif) 9px 1px no-repeat;}
+.menu4 ul li.groups {background:transparent url(../img/menu/users_options_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.settings {background:transparent url(../img/menu/site_settings_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.add_article {background:transparent url(../img/menu/articles_add.gif) 9px 1px no-repeat;}
+.menu4 ul li.categories {background:transparent url(../img/menu/edit_categories.gif) 9px 1px no-repeat;}
+.menu4 ul li.add_user {background:transparent url(../img/menu/user_add.gif) 9px 1px no-repeat;}
+.menu4 ul li.delete {background:transparent url(../img/menu/delete.gif) 9px 1px no-repeat;}
+.menu4 ul li.show {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.last {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.first {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.all {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.none {background:transparent url(../img/menu/articles_menu.gif) 9px 1px no-repeat;}
+.menu4 ul li.subsubl {background-repeat: no-repeat;background-position: top left;}
+
+.menu4 ul li a, .menu4 ul li a:visited {
+display:block; text-decoration:none; width:75px; height:20px; color:#000; padding-left:30px; line-height:20px; font-weight: bold; font-size: 11px;
+}
+* html .menu4 ul li a, .menu4 ul li a:visited {
+width:100px; width:70px; font-size: 11px; font-weight: bold;
+}
+
+.menu4 ul li ul {
+visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+}
+
+/* fist line style for IE7 and non-IE browsers and the second line for IE5.5 and IE6 */
+.menu4 ul li:hover a,
+.menu4 ul li a:hover {
+color:#648394; text-decoration:none; border:0;
+}
+.menu4 ul li:hover ul,
+.menu4 ul li a:hover ul {
+visibility:visible; width:170px; height:auto; position:absolute; top:20px; left:-1px; background:#99BFD4; border:1px solid #CCCCCC; overflow:visible;  -moz-border-radius: 5px; -ms-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; 
+}
+.menu4 ul li:hover ul li a,
+.menu4 ul li a:hover ul li a {
+display:block; background:transparent; text-decoration:none; color:#fff; height:auto; line-height:1.2em; padding:5px 10px 5px 30px; width:170px; w\idth:125px; font-weight: normal;
+}
+.menu4 ul li:hover ul li a.drop,
+.menu4 ul li a:hover ul li a.drop {
+display:block; color:#000; height:auto; line-height:1.5em; padding:5px 10px 5px 35px; width:170px; w\idth:125px; font-weight: normal;
+}
+.menu4 ul li:hover ul li ul,
+.menu4 ul li a:hover ul li a ul {
+visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+}
+.menu4 ul li:hover ul li a:hover,
+.menu4 ul li a:hover ul li a:hover {
+color:#898E94; text-decoration:underline; background: #DBECF3; font-weight: bold;
+}
+/*background:#e7f2f3;*/
+.menu4 ul li:hover ul li:hover ul,
+.menu4 ul li a:hover ul li a:hover ul {
+visibility:visible; position:absolute; top:0; color:#000; left:166px; height:auto; border:1px solid #CCC;
+}
+.menu4 ul li:hover ul li:hover ul.left,
+.menu4 ul li a:hover ul li a:hover ul.left {
+left:-166px;
+}
+.menu4 ul li:hover ul li:hover ul li a,
+.menu4 ul li a:hover ul li a:hover ul li a {
+display:block; color:#106595; height:auto; line-height:1.5em; padding:5px 10px 4px 35px; width:170px; w\idth:140px;
+}
+* html .menu4 ul li a:hover ul li a:hover ul li a {padding:4px 10px 4px 35px;}
+
+.menu4 ul li:hover ul li:hover ul li:hover a,
+.menu4 ul li a:hover ul li a:hover ul li a:hover {
+color:#0D1F29; text-decoration:underline;
+}
